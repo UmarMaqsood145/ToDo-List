@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,70,121,1) 48%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    background: white;
+    width: 100%;
+    height: 60px;
+}
+
+nav h1{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: rgba(9,70,121,1);
+}
+
+.center{
+    background: white;
+    width: 500px;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center input{
+    padding: 10px 150px 10px 10px;
+    border: 1.5px solid rgba(9,70,121,1);
+    outline: none;
+    border-radius: 5px;
+}
+
+.center input:hover{
+    border: 1.5px solid rgba(0,212,255,1);
+}
+
+.center .add_btn{
+    background: linear-gradient(90deg, rgb(8, 3, 99) 0%, rgba(9,70,121,1) 30%, rgba(0,212,255,1) 100%);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 11px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center .add_btn:hover{
+    background: rgba(0,212,255,1);
+    color: rgba(2,0,36,1) ;
+}
+
+.listStyle{
+    background: white;
+    margin-top: 10px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listStyle li{
+    list-style: none;
+    color: rgba(2,0,36,1);
+}
+
+.listStyle .all_btns{
+    margin-left: 10px;
+}
+
+.listStyle .done_btn{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(2,0,36,1);
+    margin-left: 10px;
+}
+
+.listStyle .done_btn:hover{
+    color: rgba(0,212,255,1);
+}
+
+.listStyle .del_btn{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(2,0,36,1);
+    margin-left: 10px;
+}
+
+.listStyle .del_btn:hover{
+    color: red;
+}
+
+.listStyle .edit_btn{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(2,0,36,1);
+}
+
+.listStyle .edit_btn:hover{
+    color: rgba(0,212,255,1);
+}
